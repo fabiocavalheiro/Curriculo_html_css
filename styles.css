@@ -98,7 +98,7 @@ p a {
         width: 100%;
         padding: 10px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -113,17 +113,20 @@ p a {
 
         /* Os estilos a seguir centralizam os elementos internos */
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
         overflow-x: hidden;
     }
     #sobre-mim {
-        width: 271px;
+        width: 100%;
 
     }
     .sobre-mim {
-        width: 250px;
+        width: 100%;
+    }
+    #quem-sou {
+        width: 100%;
     }
 }
